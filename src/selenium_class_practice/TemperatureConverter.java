@@ -22,8 +22,8 @@ public class TemperatureConverter {
         double kelvin = celsius + 273;
 
         // Display the results
-        System.out.println("Temperature in Fahrenheit: " + fahrenheit + " °F");
-        System.out.println("Temperature in Kelvin: " + kelvin + " K");
+        System.out.println("0.0 Celsius = " + fahrenheit + " °F");
+        System.out.println("0.0 Celsius = " + kelvin + " K");
 	}
 
 }
