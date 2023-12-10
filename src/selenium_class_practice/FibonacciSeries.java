@@ -10,7 +10,7 @@ public class FibonacciSeries {
 		Scanner scan = new Scanner(System.in);
 
 		// Get the first integer from the user
-		System.out.print("Enter Number ");
+		System.out.print("Enter Number: ");
 		int num = scan.nextInt();
 		int a = 0;
 		int b = 1;
