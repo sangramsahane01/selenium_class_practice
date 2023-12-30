@@ -5,6 +5,7 @@ public class InfiniteLoop {
 	public static void main(String[] args) { 
 		
 		 /***Below Is First Code for Infinite Loop***/
+		
 		  
 		   int i=1;
 		    while(i==1) {
@@ -20,3 +21,16 @@ public class InfiniteLoop {
 		 
 	  }
 }
+
+/***Below Is Second Code for Infinite Loop***/
+
+ class InfiniteForLoopExample{
+    void infiniteMethod() {
+        // Using true as the loop condition for an infinite loop in Java
+        for (;;) {
+            // Your loop body here
+            System.out.println("This is an infinite loop");
+        }
+    }
+}
+
